@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Algorithm_1">
+      <UniqueIdentifier>{027c267f-495d-4e30-b77d-7b2f568d4056}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Algorithm_1\Brute_Sequence">
+      <UniqueIdentifier>{94c0d378-fa06-45b0-8a4e-0ad114872cb3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Algorithm_1\BFS">
+      <UniqueIdentifier>{04193430-e316-405c-bcaf-13018d9b5aba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Algorithm_1\Greedy">
+      <UniqueIdentifier>{c1f7b30f-14b4-431b-91ae-85559224c8dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Algorithm_1\BinarySearch">
+      <UniqueIdentifier>{e99f14af-7505-40ff-ba2c-377bed46e3dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Algorithm_1\SortAlgo">
+      <UniqueIdentifier>{ead7b5c5-dc59-4083-bf01-dd708f35f6ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Algorithm_2">
+      <UniqueIdentifier>{77f43370-f4ae-4616-8e06-708f8aacc609}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Algorithm_3">
+      <UniqueIdentifier>{49a35199-2e19-4a39-9ee3-a83e71c6a2c2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Inequality_2529.cpp">
+      <Filter>Algorithm_1\Brute_Sequence</Filter>
+    </ClCompile>
+    <ClCompile Include="Lotto_6603.cpp">
+      <Filter>Algorithm_1\Brute_Sequence</Filter>
+    </ClCompile>
+    <ClCompile Include="subseq_sum_14225.cpp">
+      <Filter>Algorithm_1\Brute_Sequence</Filter>
+    </ClCompile>
+    <ClCompile Include="Ladder_Snake_16928.cpp">
+      <Filter>Algorithm_1\BFS</Filter>
+    </ClCompile>
+    <ClCompile Include="LoseBracket_1541.cpp">
+      <Filter>Algorithm_1\Greedy</Filter>
+    </ClCompile>
+    <ClCompile Include="NumberCard_10815.cpp">
+      <Filter>Algorithm_1\BinarySearch</Filter>
+    </ClCompile>
+    <ClCompile Include="PointSort_11650.cpp">
+      <Filter>Algorithm_1\SortAlgo</Filter>
+    </ClCompile>
+    <ClCompile Include="WriteNextNum_1790.cpp">
+      <Filter>Algorithm_1\BinarySearch</Filter>
+    </ClCompile>
+    <ClCompile Include="WordMath_1339.cpp">
+      <Filter>Algorithm_1\Brute_Sequence</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
