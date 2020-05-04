@@ -56,7 +56,7 @@
 
 
 
- //기본 조합
+ //기본 조합의 합
 #include <iostream>
 
 using namespace std;

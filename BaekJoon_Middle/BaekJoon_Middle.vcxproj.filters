@@ -37,6 +37,12 @@
     <Filter Include="Algorithm_3">
       <UniqueIdentifier>{49a35199-2e19-4a39-9ee3-a83e71c6a2c2}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Algorithm_1\DivideAndConquer">
+      <UniqueIdentifier>{8905739c-4050-4242-9bcf-777f77c71d5c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Algorithm_2\DataStructure">
+      <UniqueIdentifier>{35df95fa-90ee-4a5f-9a54-fa3f88fe8ce4}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Inequality_2529.cpp">
@@ -65,6 +71,51 @@
     </ClCompile>
     <ClCompile Include="WordMath_1339.cpp">
       <Filter>Algorithm_1\Brute_Sequence</Filter>
+    </ClCompile>
+    <ClCompile Include="SubSeqSum2_1182.cpp">
+      <Filter>Algorithm_1\Brute_Sequence</Filter>
+    </ClCompile>
+    <ClCompile Include="Coin0_11047.cpp">
+      <Filter>Algorithm_1\Greedy</Filter>
+    </ClCompile>
+    <ClCompile Include="FillConferenceRoom.cpp">
+      <Filter>Algorithm_1\Greedy</Filter>
+    </ClCompile>
+    <ClCompile Include="ATM_14888.cpp">
+      <Filter>Algorithm_1\Greedy</Filter>
+    </ClCompile>
+    <ClCompile Include="Matrix_1080.cpp">
+      <Filter>Algorithm_1\Greedy</Filter>
+    </ClCompile>
+    <ClCompile Include="NumberCard2_10816.cpp">
+      <Filter>Algorithm_1\DivideAndConquer</Filter>
+    </ClCompile>
+    <ClCompile Include="PaperCount_1780.cpp">
+      <Filter>Algorithm_1\DivideAndConquer</Filter>
+    </ClCompile>
+    <ClCompile Include="TreeOrder_2263.cpp">
+      <Filter>Algorithm_1\DivideAndConquer</Filter>
+    </ClCompile>
+    <ClCompile Include="BubbleSort.cpp">
+      <Filter>Algorithm_1\DivideAndConquer</Filter>
+    </ClCompile>
+    <ClCompile Include="DeathKnight_.cpp">
+      <Filter>Algorithm_1\BFS</Filter>
+    </ClCompile>
+    <ClCompile Include="DSLR_9019.cpp">
+      <Filter>Algorithm_1\BFS</Filter>
+    </ClCompile>
+    <ClCompile Include="StringBomb_9935.cpp">
+      <Filter>Algorithm_2\DataStructure</Filter>
+    </ClCompile>
+    <ClCompile Include="HistogramWidth_6549.cpp">
+      <Filter>Algorithm_2\DataStructure</Filter>
+    </ClCompile>
+    <ClCompile Include="OasisReunion_3015.cpp">
+      <Filter>Algorithm_2\DataStructure</Filter>
+    </ClCompile>
+    <ClCompile Include="ArrayPresent_1717.cpp">
+      <Filter>Algorithm_2\DataStructure</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

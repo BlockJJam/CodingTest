@@ -146,7 +146,7 @@ int main()
 	sort(seq.begin(),seq.end());
 
 	answer = vector<int>(M, 0);
-	sequence15650(N, M);
+	sequence15649(N, M);
 
 
 	return 0;
