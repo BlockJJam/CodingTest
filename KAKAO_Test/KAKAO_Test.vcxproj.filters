@@ -13,10 +13,70 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="소스 파일\KAKAO_2019_int">
+      <UniqueIdentifier>{6f43a30d-b003-49fd-9310-1e55ac9295c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\KAKAO_2020_blind">
+      <UniqueIdentifier>{20f689b2-b01c-4e3a-866f-35e8b8199a44}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\KAKAO_2020_Intern_TEST">
+      <UniqueIdentifier>{d1a01950-8ed4-47ba-852f-4f9e2cc36601}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="KAKAO2020_1.cpp">
-      <Filter>소스 파일</Filter>
+      <Filter>소스 파일\KAKAO_2020_blind</Filter>
+    </ClCompile>
+    <ClCompile Include="KAKAO2020_2.cpp">
+      <Filter>소스 파일\KAKAO_2020_blind</Filter>
+    </ClCompile>
+    <ClCompile Include="KAKAO2020_4.cpp">
+      <Filter>소스 파일\KAKAO_2020_blind</Filter>
+    </ClCompile>
+    <ClCompile Include="KAKAO2020_4(trie).cpp">
+      <Filter>소스 파일\KAKAO_2020_blind</Filter>
+    </ClCompile>
+    <ClCompile Include="KAKAO2020_5.cpp">
+      <Filter>소스 파일\KAKAO_2020_blind</Filter>
+    </ClCompile>
+    <ClCompile Include="KAKAO2020_3.cpp">
+      <Filter>소스 파일\KAKAO_2020_blind</Filter>
+    </ClCompile>
+    <ClCompile Include="KAKAO2020_6.cpp">
+      <Filter>소스 파일\KAKAO_2020_blind</Filter>
+    </ClCompile>
+    <ClCompile Include="KAKAO2020_7.cpp">
+      <Filter>소스 파일\KAKAO_2020_blind</Filter>
+    </ClCompile>
+    <ClCompile Include="Q1.cpp">
+      <Filter>소스 파일\KAKAO_2019_int</Filter>
+    </ClCompile>
+    <ClCompile Include="Q2.cpp">
+      <Filter>소스 파일\KAKAO_2019_int</Filter>
+    </ClCompile>
+    <ClCompile Include="Q3.cpp">
+      <Filter>소스 파일\KAKAO_2019_int</Filter>
+    </ClCompile>
+    <ClCompile Include="Q4.cpp">
+      <Filter>소스 파일\KAKAO_2019_int</Filter>
+    </ClCompile>
+    <ClCompile Include="Q5.cpp">
+      <Filter>소스 파일\KAKAO_2019_int</Filter>
+    </ClCompile>
+    <ClCompile Include="KAKAO_TEST1.cpp">
+      <Filter>소스 파일\KAKAO_2020_Intern_TEST</Filter>
+    </ClCompile>
+    <ClCompile Include="KAKAO_TEST2.cpp">
+      <Filter>소스 파일\KAKAO_2020_Intern_TEST</Filter>
+    </ClCompile>
+    <ClCompile Include="KAKAO_TEST3.cpp">
+      <Filter>소스 파일\KAKAO_2020_Intern_TEST</Filter>
+    </ClCompile>
+    <ClCompile Include="KAKAO_TEST4.cpp">
+      <Filter>소스 파일\KAKAO_2020_Intern_TEST</Filter>
+    </ClCompile>
+    <ClCompile Include="KAKAO_TEST5.cpp">
+      <Filter>소스 파일\KAKAO_2020_Intern_TEST</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

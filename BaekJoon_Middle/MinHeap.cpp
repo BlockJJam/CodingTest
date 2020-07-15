@@ -11,21 +11,13 @@
 #include <cstring>
 using namespace std;
 
-
-vector<int> p;
-int N, M;
-
 #define FOR(i,n) for(int i=0; i<(n); i++)
 #define endl "\n"
 #define ll unsigned long long
-const int MAX = 1000000;
+const int MAX = 100001;
 
-int find(int x)
-{
-	if (x == p[x]) return x;
-	else
-		return p[x] = find(p[x]);
-}
+int N;
+priority_queue<int, std::vector<int>, std::greater<int>> pq;
 
 void input()
 {
@@ -33,35 +25,29 @@ void input()
 	cin.tie(NULL);
 	cout.tie(NULL);
 
-	cin >> N >> M;
-	N = N + 1;
-	FOR(i, N) p.push_back(i);
-
-	FOR(i, M)
+	cin >> N;
+	FOR(i, N)
 	{
-		int op, a, b;
-		cin >> op >> a >> b;
-
-		if (op == 0)
+		int x;
+		cin >> x;
+		if (x == 0)
 		{
-			a = find(a);
-			b = find(b);
-
-			if (a > b) p[a] = b;
-			else p[b] = a;
+			if (pq.empty())
+				cout << 0 << endl;
+			else
+			{
+				cout << pq.top() << endl;
+				pq.pop();
+			}
 		}
-		if(op == 1)
-		{
-			a = find(a);
-			b = find(b);
-			if (a == b) cout << "YES" << endl;
-			else cout << "NO" << endl;
-		}
+		else
+			pq.push(x);
 	}
 }
 
 int main()
 {
 	input();
+
 	return 0;
 }

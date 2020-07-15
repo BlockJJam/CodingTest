@@ -43,6 +43,21 @@
     <Filter Include="Algorithm_2\DataStructure">
       <UniqueIdentifier>{35df95fa-90ee-4a5f-9a54-fa3f88fe8ce4}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Algorithm_2\String">
+      <UniqueIdentifier>{164077b2-6d09-4508-baff-a930184ab013}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Algorithm_2\DP">
+      <UniqueIdentifier>{a820e057-a8ff-49c2-8fd0-55295adad42a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Algorithm_3\SegmentTree">
+      <UniqueIdentifier>{f74f8945-efd2-4126-a8bc-33d5d654e1b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Algorithm_3\Disjoint-Set">
+      <UniqueIdentifier>{73f314d4-9638-4ed5-b3ec-32d8e0ae0764}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Algorithm_2\Math">
+      <UniqueIdentifier>{afcf2e61-cc95-46d5-a15a-00e98b860dfa}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Inequality_2529.cpp">
@@ -62,9 +77,6 @@
     </ClCompile>
     <ClCompile Include="NumberCard_10815.cpp">
       <Filter>Algorithm_1\BinarySearch</Filter>
-    </ClCompile>
-    <ClCompile Include="PointSort_11650.cpp">
-      <Filter>Algorithm_1\SortAlgo</Filter>
     </ClCompile>
     <ClCompile Include="WriteNextNum_1790.cpp">
       <Filter>Algorithm_1\BinarySearch</Filter>
@@ -116,6 +128,123 @@
     </ClCompile>
     <ClCompile Include="ArrayPresent_1717.cpp">
       <Filter>Algorithm_2\DataStructure</Filter>
+    </ClCompile>
+    <ClCompile Include="Virus_2606.cpp">
+      <Filter>Algorithm_2\DataStructure</Filter>
+    </ClCompile>
+    <ClCompile Include="MaxHeap.cpp">
+      <Filter>Algorithm_2\DataStructure</Filter>
+    </ClCompile>
+    <ClCompile Include="MinHeap.cpp">
+      <Filter>Algorithm_2\DataStructure</Filter>
+    </ClCompile>
+    <ClCompile Include="PointSort_11650.cpp">
+      <Filter>Algorithm_1\SortAlgo</Filter>
+    </ClCompile>
+    <ClCompile Include="PartialString.cpp">
+      <Filter>Algorithm_2\String</Filter>
+    </ClCompile>
+    <ClCompile Include="KMP_findString.cpp">
+      <Filter>Algorithm_2\String</Filter>
+    </ClCompile>
+    <ClCompile Include="Cubeditor_1701.cpp">
+      <Filter>Algorithm_2\String</Filter>
+    </ClCompile>
+    <ClCompile Include="PrefixMatch_14426.cpp">
+      <Filter>Algorithm_2\String</Filter>
+    </ClCompile>
+    <ClCompile Include="CycleSeq_12104.cpp">
+      <Filter>Algorithm_2\String</Filter>
+    </ClCompile>
+    <ClCompile Include="MatrixMultiOperCount_11049.cpp">
+      <Filter>Algorithm_2\DP</Filter>
+    </ClCompile>
+    <ClCompile Include="GookYongSoo.cpp">
+      <Filter>Algorithm_1\SortAlgo</Filter>
+    </ClCompile>
+    <ClCompile Include="Algo_test.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Tetronomino_14500.cpp">
+      <Filter>Algorithm_1\Brute_Sequence</Filter>
+    </ClCompile>
+    <ClCompile Include="BabyShark_16236.cpp">
+      <Filter>Algorithm_1\BFS</Filter>
+    </ClCompile>
+    <ClCompile Include="Z_1974.cpp">
+      <Filter>Algorithm_1\DivideAndConquer</Filter>
+    </ClCompile>
+    <ClCompile Include="SegementSum_2042.cpp">
+      <Filter>Algorithm_3\SegmentTree</Filter>
+    </ClCompile>
+    <ClCompile Include="GoTrip_1976.cpp">
+      <Filter>Algorithm_3\Disjoint-Set</Filter>
+    </ClCompile>
+    <ClCompile Include="PhoneNumberList_5052.cpp">
+      <Filter>Algorithm_2\String</Filter>
+    </ClCompile>
+    <ClCompile Include="Teach_1062.cpp">
+      <Filter>Algorithm_1\Brute_Sequence</Filter>
+    </ClCompile>
+    <ClCompile Include="MaxMin_2357.cpp">
+      <Filter>Algorithm_3\SegmentTree</Filter>
+    </ClCompile>
+    <ClCompile Include="FriendsNetwork_4195.cpp">
+      <Filter>Algorithm_3\Disjoint-Set</Filter>
+    </ClCompile>
+    <ClCompile Include="StringArrayCheck_9250.cpp">
+      <Filter>Algorithm_2\String</Filter>
+    </ClCompile>
+    <ClCompile Include="CutLen_1654.cpp">
+      <Filter>Algorithm_1\BinarySearch</Filter>
+    </ClCompile>
+    <ClCompile Include="Move_11048.cpp">
+      <Filter>Algorithm_2\DP</Filter>
+    </ClCompile>
+    <ClCompile Include="StartAndLink_14889.cpp">
+      <Filter>Algorithm_1\Brute_Sequence</Filter>
+    </ClCompile>
+    <ClCompile Include="TwoCoin_16197.cpp">
+      <Filter>Algorithm_1\Brute_Sequence</Filter>
+    </ClCompile>
+    <ClCompile Include="MarbleEscape_13460.cpp">
+      <Filter>Algorithm_1\Brute_Sequence</Filter>
+    </ClCompile>
+    <ClCompile Include="BreakWallMove2_14442.cpp">
+      <Filter>Algorithm_1\BFS</Filter>
+    </ClCompile>
+    <ClCompile Include="BulbSwitch_2138.cpp">
+      <Filter>Algorithm_1\Greedy</Filter>
+    </ClCompile>
+    <ClCompile Include="DivideFourGraph_1891.cpp">
+      <Filter>Algorithm_1\DivideAndConquer</Filter>
+    </ClCompile>
+    <ClCompile Include="Multi_1629.cpp">
+      <Filter>Algorithm_2\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="AgeSort_10814.cpp">
+      <Filter>Algorithm_1\SortAlgo</Filter>
+    </ClCompile>
+    <ClCompile Include="SquaredMatrix_10830.cpp">
+      <Filter>Algorithm_2\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="CutTree_2805.cpp">
+      <Filter>Algorithm_1\BinarySearch</Filter>
+    </ClCompile>
+    <ClCompile Include="AsciiStreet_2809.cpp">
+      <Filter>Algorithm_2\String</Filter>
+    </ClCompile>
+    <ClCompile Include="jump_11060.cpp">
+      <Filter>Algorithm_2\DP</Filter>
+    </ClCompile>
+    <ClCompile Include="LeaveCompany_15486.cpp">
+      <Filter>Algorithm_2\DP</Filter>
+    </ClCompile>
+    <ClCompile Include="Pelindrome_10942.cpp">
+      <Filter>Algorithm_2\DP</Filter>
+    </ClCompile>
+    <ClCompile Include="MergeFile_11066.cpp">
+      <Filter>Algorithm_2\DP</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

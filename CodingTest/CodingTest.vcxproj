@@ -142,9 +142,16 @@
     <ClCompile Include="Combination.cpp" />
     <ClCompile Include="DFS.cpp" />
     <ClCompile Include="Dijkstra_BellmanFord.cpp" />
+    <ClCompile Include="DisjointSet.cpp" />
     <ClCompile Include="Floyd_AllV_distance.cpp" />
+    <ClCompile Include="Kruskal_MinSpanningTree.cpp" />
     <ClCompile Include="Permutation.cpp" />
     <ClCompile Include="BFS_Puzzle15.cpp" />
+    <ClCompile Include="Prim_MinSpanningTree.cpp" />
+    <ClCompile Include="SegmentTree.cpp" />
+    <ClCompile Include="SuffixArray.cpp" />
+    <ClCompile Include="Test_Test.cpp" />
+    <ClCompile Include="Trie.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
